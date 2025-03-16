@@ -14,9 +14,6 @@ print("Veuillez choisir votre image")
 #Variable correspondant à la sélection du fichier
 fichier_image = filedialog.askopenfilename(title="Sélectionner un fichier")
 
-#Fichier image
-fichier_image = input()
-
 # Le fichier est défini par la variable fichier_image = input()
 print("Démarrage du traitement de : ", fichier_image)
 
